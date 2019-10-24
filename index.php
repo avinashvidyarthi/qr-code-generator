@@ -21,14 +21,14 @@
     			<form name="form" action="qr.php" method="post" target="qr_area">
     				<label style="float: left;">Type:</label>
     				<select name="type" class="form-control" id="type" onchange="sl()">
-    					<option value="1">Text</option>
+    					<option value="1">TEXT</option>
     					<option value="2">URL</option>
-    					<option value="3">Email</option>
-    					<option value="4">Phone</option>
+    					<option value="3">EMAIL</option>
+    					<option value="4">PHONE</option>
     					<option value="5">SMS</option>
-						<option value="6">Contact</option>
-						<option value="7">UPI</option>
-						<option value="8">WIFI</option>
+					<option value="6">CONTACTS</option>
+					<option value="7">UPI</option>
+					<option value="8">WIFI</option>
     				</select>
     				<br>
     				<div id="form1" style="color: white;">
